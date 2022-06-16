@@ -7,6 +7,7 @@ def fib():
     print(b)
 
     for i in range (0,n-2):
+       #n-2 because we initially printed out two numbers of the series
         c=a+b
         a=b
         b=c
